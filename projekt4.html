@@ -334,11 +334,13 @@
                         <img src="images/14.jpg" alt="Obrázek 14" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" onclick="openLightbox(this.src)">
                         <img src="images/15.jpg" alt="Obrázek 15" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" onclick="openLightbox(this.src)">
                         <video src="images/16.mp4" alt="Video 16" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" controls muted onclick="openLightboxVideo(this.src)"></video>
+                        <img src="images/17.png" alt="Obrázek 17" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" onclick="openLightbox(this.src)">
                         <!-- Duplikované obrázky pro nekonečné scrollování -->
                         <img src="images/13.png" alt="Obrázek 13" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" onclick="openLightbox(this.src)">
                         <img src="images/14.jpg" alt="Obrázek 14" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" onclick="openLightbox(this.src)">
                         <img src="images/15.jpg" alt="Obrázek 15" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" onclick="openLightbox(this.src)">
                         <video src="images/16.mp4" alt="Video 16" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" controls muted onclick="openLightboxVideo(this.src)"></video>
+                        <img src="images/17.png" alt="Obrázek 17" class="rounded-lg shadow-lg w-64 h-48 object-cover flex-shrink-0 cursor-pointer hover:opacity-80 transition" onclick="openLightbox(this.src)">
                     </div>
                 </div>
             </div>
@@ -400,7 +402,7 @@
                 gallery.style.transform = `translateX(-${scrollPosition}px)`;
 
                 const itemWidth = 280;
-                const totalItems = 4;
+                const totalItems = 5;
                 const resetPoint = itemWidth * totalItems;
                 
                 if (scrollPosition >= resetPoint) {
@@ -440,7 +442,7 @@
             scrollPosition -= deltaX * 2;
             
             const itemWidth = 280;
-            const totalItems = 4;
+            const totalItems = 5;
             const resetPoint = itemWidth * totalItems;
             
             if (scrollPosition < 0) {
@@ -479,7 +481,7 @@
             scrollPosition -= deltaX * 2;
             
             const itemWidth = 280;
-            const totalItems = 4;
+            const totalItems = 5;
             const resetPoint = itemWidth * totalItems;
             
             if (scrollPosition < 0) {
